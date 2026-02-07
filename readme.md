@@ -6,15 +6,14 @@ Figma link: https://www.figma.com/design/uEanW0qUCb9xPha544sb5e/Untitled?node-id
 Create a new project directory named responsive-portfolio
 Initialize the following file structure:
 
-  responsive-portfolio/
-  ├── index.html
-  ├── css/
-  │   └── styles.css
-  └── assets/
-      └── images/
+responsive-portfolio/
+├── index.html
+├── css/
+│ └── styles.css
+└── assets/
+└── images/
 
 Ensure all images from the design mockups are placed in the assets/images/ folder
-
 
 2. Building the Foundation (HTML)
 
@@ -24,7 +23,7 @@ Ensure all text content matches the design specifications exactly
 Add alt attributes to all images for accessibility
 Include proper meta tags in the <head> for responsive behavior:
 
-html  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+html <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 3. Implementing Mobile-First CSS
 
@@ -38,18 +37,16 @@ Padding and margins
 Element dimensions
 Color values (use exact hex/rgb values from the design)
 
-
-
-
 4. Creating Breakpoints & Desktop Layout
 
 The mobile design should persist up to 768px
 At 768px and above, transition to the desktop layout
 Use CSS media queries to handle breakpoint transitions:
 
-css  @media (min-width: 768px) {
-    /* Desktop styles here */
-  }
+css @media (min-width: 768px) {
+/_ Desktop styles here _/
+}
+
 ```
 - Ensure smooth visual transitions between breakpoints (no layout "jumps" or broken spacing)
 - Test at intermediate resolutions: 480px, 768px, 991px, 1200px, 1440px, and 1920px
@@ -105,3 +102,4 @@ Your submission will be evaluated based on the following:
 **Deadline:** 02.08.2026
 
 Good luck, Architect! Build with precision and pride. 🚀
+```
